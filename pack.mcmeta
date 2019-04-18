@@ -1,0 +1,18 @@
+{
+	"pack": {
+		"identity": "hugoalh.Minecraft.Java.DataPack.NoEndermanGriefing",
+		"name": "Minecraft Java Data Pack: No Enderman Griefing",
+		"author": "hugoalh",
+		"version": "1.0.2",
+		"description": "No Enderman Griefing, 1.0.2",
+		"tag": [
+			"hugoalh",
+			"minecraft",
+			"java",
+			"datapack",
+			"enderman",
+			"griefing"
+		],
+		"pack_format": 1
+	}
+}
