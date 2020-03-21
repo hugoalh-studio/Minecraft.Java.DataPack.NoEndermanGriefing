@@ -1,1 +1,174 @@
-desktop.ini
+# ==================
+# hugoalh's Repository Resource - Git Ignore
+#   Author:
+#     hugoalh
+#   Language:
+#     Git-Configuration
+#   Last Update:
+#     2019-12-07
+# ==================
+# ::::::::
+# General
+# ::::::::
+$RECYCLE.BIN/
+*.bak
+*.lnk
+*.log
+*.stackdump
+*.tmp
+.AppleDB
+.AppleDesktop
+.AppleDouble
+.DS_Store
+.DocumentRevisions-V100
+.LSOverride
+.Spotlight-V100
+.TemporaryItems
+.Trash-*
+.Trashes
+.VolumeIcon.icns
+._*
+.com.apple.timemachine.donotpresent
+.fseventsd
+.fuse_hidden*
+.nfs*
+.setting/
+.settings/
+[Bb]ackup/
+[Dd]ebug/
+[Dd]esktop.ini
+[Rr]eport/
+[Rr]reports/
+[Tt]Thumbs.db:encryptable
+[Tt]emp/
+[Tt]est/
+[Tt]humbs.db
+ehthumbs.db
+ehthumbs_vista.db
+
+# ::::::::
+# Catalog
+# ::::::::
+# Anjuta (Local configuration folder and symbol database)
+/.anjuta/
+/.anjuta_sym_db.db
+
+# Ansible
+*.retry
+
+# Backup
+*.gho
+*.ori
+*.orig
+
+# Bazaar
+.bzr/
+# .bzrignore
+
+# BricxCC
+*.sym
+
+# CVS
+/CVS/
+**/CVS/
+# .cvsignore
+# */.cvsignore
+
+# Calabash / Cucumber
+rerun/
+screenshots/
+screenshot*.png
+
+# Bundler
+.bundle
+# vendor
+
+# DartEditor
+.buildlog
+
+# Adobe Dreamweaver
+_notes
+_compareTemp
+# config/
+# configs/
+dwsync.xml
+# dw_php_codehinting.config
+
+# Dropbox
+.dropbox
+.dropbox.attr
+.dropbox.cache
+
+# Eclipse
+.recommenders
+.recommenders/
+.apt_generated/
+.cache-main
+
+# Ensime
+.ensime_cache/
+
+# FlexBuilder
+bin-debug/
+
+# JetBrains
+crashlytics.properties
+crashlytics-build.properties
+
+# LibreOffice
+.~lock.*#
+
+# MatLab
+*.autosave
+
+# Microsoft Office
+~$*.doc*
+~$*.xls*
+*.xlk
+~$*.ppt*
+*.~vsd*
+
+# ModelSim
+vsim.dbg
+
+# NetBeans
+**/nbproject/private/
+
+# Ninja
+.ninja_log
+
+# PSoCCreator
+*/codegentemp
+*.rpt
+
+# PuTTY (Private key)
+*.ppk
+
+# Simple Build Tool
+.history
+.cache
+
+# SublimeText
+*.tmlanguage.cache
+*.tmPreferences.cache
+*.stTheme.cache
+Package Control.cache/
+
+# SynopsysVCS
+urgReport/
+ucli.key
+
+# TortoiseGit
+/.tgitconfig
+
+# Virtuoso
+panic*.log.*
+abstract.log*
+
+# Visual Studio Code
+.vscode/
+
+# WebMethods
+**/IntegrationServer/logs/
+
+compiled/
