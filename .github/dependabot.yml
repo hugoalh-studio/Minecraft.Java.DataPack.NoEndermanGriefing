@@ -1,0 +1,25 @@
+# ==================
+# hugoalh's Repository Resource - GitHub Dependabot
+#   Language:
+#     YAML
+#   Last Update:
+#     2020-08-18
+#   Schema:
+#     https://docs.github.com/en/github/administering-a-repository/configuration-options-for-dependency-updates
+# ==================
+version: 2
+updates:
+  - package-ecosystem: "github-actions"
+    directory: "/"
+    schedule:
+      interval: "daily"
+      time: "00:00"
+    assignees:
+      - "hugoalh"
+    labels:
+      - "dependency📦"
+      - "unconfirm📋"
+    open-pull-requests-limit: 128
+    pull-request-branch-name:
+      separator: "/"
+    rebase-strategy: "disabled"

@@ -1,15 +1,14 @@
 # ==================
 # hugoalh's Repository Resource - Git Ignore
-#   Author:
-#     hugoalh
 #   Language:
 #     Git-Configuration
 #   Last Update:
-#     2020-06-09
+#     2020-08-07
 # ==================
 _compareTemp
 _notes
 ._*
+.*.swp
 .~lock.*#
 .AppleDB
 .AppleDesktop
@@ -34,7 +33,9 @@ _notes
 .fseventsd
 .fuse_hidden*
 .fusebox/*
+.git
 .grunt
+.hg
 .history
 .lock-wscript
 .LSOverride
@@ -51,12 +52,15 @@ _notes
 .setting/*
 .settings/*
 .Spotlight-V100
+.svn
 .TemporaryItems
 .Trash-*
 .Trashes
 .VolumeIcon.icns
+.vs/*
 .vscode/*
 .vuepress/dist
+.wafpickle-*
 .yarn-integrity
 [Bb]ackup/*
 [Dd]ebug/*
@@ -106,9 +110,11 @@ abstract.log*
 bin-debug/*
 bower_components
 build/Release
+config.gypi
 coverage
 crashlytics-build.properties
 crashlytics.properties
+CVS
 dwsync.xml
 ehthumbs_vista.db
 ehthumbs.db

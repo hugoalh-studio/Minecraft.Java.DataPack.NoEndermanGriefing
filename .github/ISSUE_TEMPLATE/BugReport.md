@@ -1,34 +1,30 @@
 ---
-name: Bug Report
-about: Report a bug
+name: "Bug Report"
+about: "Report a bug."
 title: ""
-labels: ""
+labels: "bug🐛,unconfirm📋"
 assignees: ""
 ---
-## Description
+## Describe
+
+*What the bug is?*
 
 
 
 ## Version
 
-> [Optional] Version number/code is displayed when in the game using command `/datapack list` and hover this data pack, and at the advancement tab and hover this data pack. Leaving this slot blank will default to the newest released version.
+*Must be a supported version(s) listed in the [security policy](https://github.com/hugoalh-studio/Minecraft.Java.DataPack.NoEndermanGriefing/security/policy). (Leaving this slot blank will default to the latest version.)*
 
 
 
-## Minecraft Java Version
+## To Reproduce
 
-> [Optional] Minecraft Java version number/code is displayed at the window title, and at the bottom left in the game main menu; Snapshot version are not supposed to be her; If using any modification, also list it here (Example: Forge). Leaving this slot blank will default to the newest released version.
-
-
-
-## Step(s) To Reproduce Bug
-
-> [Optional] If this bug can be reproduce repeatly, please list your step(s)!
+*\[Optional\] If this bug can be reproduce repeatedly, please list your step(s)!*
 
 
 
 ## Expected Behavior
 
-> [Optional] What thing(s) should expected to happen?
+*\[Optional\] What thing(s) should expected to happen?*
 
 
