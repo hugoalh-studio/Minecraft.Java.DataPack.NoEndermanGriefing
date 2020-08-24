@@ -2,10 +2,10 @@
 
 ## Supported Version
 
-| **Version** | **Support** |
-|:----|:----|
-| v2.0.0 | ✔ |
-|  | ❌ |
+| **Version** | **Targeted Minecraft Java Version** | **Support** |
+|:----|:----|:----|
+| v2.0.0 | 1.15.2 | ✔ |
+| < v2.0.0 |  | ❌ |
 
 ### Buggy
 
