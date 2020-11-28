@@ -11,8 +11,8 @@ jobs:
       - id: "send-to-discord-main"
         uses: "hugoalh/GitHubAction.SendToDiscord@v3.1.0"
         with:
-          webhook_id: "${{secrets.DISCORD_WEBHOOK_ID}}"
-          webhook_token: "${{secrets.DISCORD_WEBHOOK_TOKEN}}"
+          webhook_id: "${{secrets.DISCORDWEBHOOK_HUGOALHSTUDIO_STUDIOANNOUNCEMENT_NEWRELEASEANNOUNCER_ID}}"
+          webhook_token: "${{secrets.DISCORDWEBHOOK_HUGOALHSTUDIO_STUDIOANNOUNCEMENT_NEWRELEASEANNOUNCER_TOKEN}}"
           message_usetexttospeech: "false"
           # message_text:
           message_embed_colour: "52,170,47"
@@ -114,7 +114,7 @@ jobs:
         uses: "hugoalh/GitHubAction.SendToIFTTT@v3.1.1"
         with:
           webhook_eventname: "githubaction_twitter"
-          webhook_key: "${{secrets.IFTTT_WEBHOOK_KEY}}"
+          webhook_key: "${{secrets.IFTTTWEBHOOK_HUGOALH_KEY}}"
           value1: "[Minecraft Java Data Pack] No Enderman Griefing version %payload.release.name% is released and available on GitHub!\n%payload.release.html_url%"
           # value2:
           # value3:
