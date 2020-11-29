@@ -1,6 +1,8 @@
+🌐 | [English](./LICENSE.md) / [中文](./LICENSE-zh-TW.md)
+
 # MIT License
 
-© 2020 \<hugoalh Studio> & \<hugoalh>
+© 2020 hugoalh Studio
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "software"), to deal in the software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the software, and to permit persons to whom the software is furnished to do so, subject to the following conditions:
 
@@ -12,11 +14,21 @@ The software is provided "as is", without warranty of any kind, express or impli
 
 *This is a short and simple table that mostly concluded this license about the permission(s), condition(s), and limitation(s); The license content section shall prevail.*
 
-|  |  |
-|:----|:----|
-| ✔ | Commercial, Distribution, Modification, Private Use |
-| ❌ | Liability, Warranty |
-
----
-
-[Open Source Initiative](https://opensource.org/licenses/MIT), v1.0.0
+<table>
+  <tr>
+    <td align="center">✔</td>
+    <td><ul>
+      <li>Commercial Use</li>
+      <li>Distribution</li>
+      <li>Modification</li>
+      <li>Private Use</li>
+    </ul></td>
+  </tr>
+  <tr>
+    <td align="center">❌</td>
+    <td><ul>
+      <li>Liability</li>
+      <li>Warranty</li>
+    </ul></td>
+  </tr>
+</table>
