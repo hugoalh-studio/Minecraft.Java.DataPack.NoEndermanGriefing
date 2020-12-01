@@ -1,6 +1,6 @@
 🌐 | [English](./README.md) / [中文](./README-zh-TW.md)
 
-# \[Minecraft Java Data Pack\] No Enderman Griefing
+# <img align="center" src="./pack.svg" height="64px" />\[Minecraft Java Data Pack\] No Enderman Griefing
 
 <details>
   <summary><a href="https://github.com/hugoalh-studio/Minecraft.Java.DataPack.NoEndermanGriefing"><code>hugoalh-studio/Minecraft.Java.DataPack.NoEndermanGriefing</code></a></summary>
