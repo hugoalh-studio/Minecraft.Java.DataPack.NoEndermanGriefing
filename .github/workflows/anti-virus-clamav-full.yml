@@ -1,7 +1,6 @@
+# $<Schema>$ https://docs.github.com/en/actions/reference/workflow-syntax-for-github-actions
 name: "Anti Virus - ClamAV (Full)"
 on:
-  schedule:
-    - cron: "0 0 * * 3"
   workflow_dispatch:
 jobs:
   anti-virus-clamav-full:
@@ -13,6 +12,6 @@ jobs:
         with:
           fetch-depth: 0
       - name: "Full Scan Repository"
-        uses: "djdefi/gitavscan@2"
+        uses: "djdefi/gitavscan@4"
         with:
           full: "--full"
